@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial calculator</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+   <div class="container">
+       <h1>calcule your interes</h1>
+       <div class="wrapper">
+         <div class="row">
+              <div class="col">
+                  <div class="row">
+                   <div class="col">
+                      <label for="">Initial amout ($)</label>
+                      <input type="text" id="amount">
+                      </div>
+                   <div class="col">
+                       <label for="">Interes rate (%)</label>
+                       <input type="text" id="ir">
+                     </div>
+                    <div class="col">
+                        <label for=""> time (Years)</label>
+                        <input type="text" id="years">
+                    </div>
+                    <div class="col">
+  <label>Is it compound interest?</label>
+  <div class="yes-no">
+    <button type="button" class="yes-no-btn" data-value="no">No</button>
+    <button type="button" class="yes-no-btn" data-value="yes">Yes</button>
+  </div>
+</div>
+            </div>
+            </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                   <div class="row2">
+                    <div class="col"> <label for="">Final amount</label><strong id="emi">00.00</strong></div>
+                    <div class="col"> <label for="">Total interes</label><strong id="totalInteres">00.00</strong></div>
+                </div>
+                <button>Calculate</button>
+                </div>
+                </div>
+            </div>
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
